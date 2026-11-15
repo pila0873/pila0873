@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="headerTitle headerDesc">
+  <title id="headerTitle">Engineering Workbench — Ilya</title>
+  <desc id="headerDesc">Dark technical banner: the name Ilya, the label Engineering Workbench, and a schematic of a local Python, Linux and SQLite stack running on a ThinkPad with Proxmox VE.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C1114"/>
+      <stop offset="0.55" stop-color="#0A0E11"/>
+      <stop offset="1" stop-color="#0D1517"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0.82" cy="0.48" r="0.58">
+      <stop offset="0" stop-color="#2E7D63" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#2E7D63" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#2E7D63" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M 8 0 H 0 V 8" fill="none" stroke="#151E21" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 H 0 V 40" fill="none" stroke="#1C272A" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55C79A" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#55C79A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#55C79A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#gridFine)" opacity="0.45"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.5"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <rect x="16.5" y="16.5" width="1167" height="267" rx="2" fill="none" stroke="#22302E"/>
+  <path d="M16 44 V16 H44" fill="none" stroke="#55C79A" stroke-width="2"/>
+  <path d="M1156 16 H1184 V44" fill="none" stroke="#3A4B47" stroke-width="2"/>
+  <path d="M1184 256 V284 H1156" fill="none" stroke="#3A4B47" stroke-width="2"/>
+  <path d="M44 284 H16 V256" fill="none" stroke="#3A4B47" stroke-width="2"/>
+
+  <g font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, 'Liberation Mono', monospace">
+    <g font-size="12" fill="#6F857D" letter-spacing="3">
+      <rect x="64" y="58" width="7" height="7" fill="#55C79A"/>
+      <text x="82" y="66">ENGINEERING WORKBENCH / 001</text>
+    </g>
+
+    <text x="60" y="162" font-size="78" font-weight="600" fill="#E8F0ED" letter-spacing="13">ILYA</text>
+
+    <rect x="65" y="184" width="48" height="2" fill="#55C79A"/>
+    <rect x="121" y="184" width="176" height="1" fill="#2A3936"/>
+
+    <text x="64" y="216" font-size="14" fill="#8CA39B" letter-spacing="2.4">PYTHON · LINUX · AUTOMATION</text>
+
+    <g font-size="10" letter-spacing="1.8">
+      <text x="64" y="254" fill="#55C79A">01</text>
+      <text x="88" y="254" fill="#5F736C">BACKEND</text>
+      <text x="196" y="254" fill="#55C79A">02</text>
+      <text x="220" y="254" fill="#5F736C">INFRASTRUCTURE</text>
+      <text x="368" y="254" fill="#55C79A">03</text>
+      <text x="392" y="254" fill="#5F736C">AUTOMATION</text>
+    </g>
+
+    <path d="M760 44 V256" fill="none" stroke="#1E2B28"/>
+
+    <g font-size="9" fill="#5F736C" letter-spacing="2">
+      <text x="852" y="48">RACK / 01</text>
+    </g>
+    <g fill="none" stroke="#31423E">
+      <path d="M852 56 H1110"/>
+      <path d="M852 52 V60"/>
+      <path d="M1110 52 V60"/>
+    </g>
+
+    <rect x="836" y="72" width="290" height="166" rx="3" fill="#0C1214" stroke="#263632"/>
+    <text x="852" y="94" font-size="10" fill="#6F857D" letter-spacing="2">STACK / LOCAL LAB</text>
+
+    <g font-size="12" letter-spacing="2">
+      <rect x="852" y="104" width="258" height="38" fill="#101A1D" stroke="#22302E"/>
+      <text x="866" y="128" fill="#D6E4DF">PYTHON</text>
+      <text x="990" y="127" font-size="8" fill="#5F7A72" letter-spacing="1.4">BACKEND</text>
+      <circle cx="1094" cy="123" r="3" fill="#55C79A"/>
+
+      <rect x="852" y="144" width="258" height="38" fill="#101A1D" stroke="#22302E"/>
+      <text x="866" y="168" fill="#D6E4DF">LINUX</text>
+      <text x="990" y="167" font-size="8" fill="#5F7A72" letter-spacing="1.4">INFRA</text>
+      <circle cx="1094" cy="163" r="3" fill="#6FA8B8"/>
+
+      <rect x="852" y="184" width="258" height="38" fill="#101A1D" stroke="#22302E"/>
+      <text x="866" y="208" fill="#D6E4DF">SQLITE</text>
+      <text x="990" y="207" font-size="8" fill="#5F7A72" letter-spacing="1.4">DATA</text>
+      <circle cx="1094" cy="203" r="3" fill="#55C79A"/>
+    </g>
+
+    <text x="836" y="258" font-size="9" fill="#5F736C" letter-spacing="2">THINKPAD T420 → PROXMOX VE</text>
+
+    <rect x="64" y="272" width="1072" height="1" fill="url(#scan)" opacity="0.35"/>
+  </g>
+</svg>
